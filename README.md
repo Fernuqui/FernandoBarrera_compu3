@@ -1,1 +1,1 @@
-Actualicé algunas cosas, pero tengo dudas con algunas etiquetas aún. 
+11/4 - Realicé las correcciones en mi codigo html, y aplique css
