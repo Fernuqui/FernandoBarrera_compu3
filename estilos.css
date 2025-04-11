@@ -1,0 +1,14 @@
+#cabecera {
+    width: 1200px;
+    height: 90px;
+    background-color: cornflowerblue;
+}
+
+header h2 {
+    color:beige;
+    font-size: 20px;
+    }
+
+header h1 {
+    color:beige;
+}

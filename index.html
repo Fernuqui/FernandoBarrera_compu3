@@ -1,41 +1,54 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>Barrera Fernando / CV</title>
-    </head>
-    
-    <body>
-        <header>
-            <h2>curriculum vitae</h2>
-            <h1>BARRERA, Fernando Ezequiel</h1>
-            <p>soy estudiante avanzado de la carrera de diseño y comunicación visual de la universidad nacional de lanús.</p>
-            <nav>
+
+<head>
+    <meta charset="utf-8" />
+    <title>BARRERA, Fernando / CV</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header id="cabecera">
+        <h2>Curriculum vitae</h2>
+        <h1>Barrera, Fernando Ezequiel</h1>
+        <p>Soy estudiante avanzado de la carrera de diseño y comunicación visual de la universidad nacional de lanús.
+        </p>
+        <nav class="botonera">
+            <h3>Contenido</h3>
+            <ul>
+                <li><a href="#">Sobre mí</a></li>
+                <li><a href="#">Estudios</a></li>
+                <li><a href="#">Mi Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <img src="img/cv1.jpg" width="200" height="200" alt="foto de fernando barrera" />
+                <h2>Sobre mí</h2>
+                <p>Soy estudiante de la carrerra de diseño y comunicación visual de la universidad nacional de lanús,
+                    actualmente me encuentro en cuarto año de la carrera y soy parte del equipo docente de algunas
+                    materias como ayudante alumno. </p>
+            </article>
+            <article>
+                <h2>Estudios</h2>
+                <p>Mis estudios...</p>
                 <ul>
-                    <p>contenido</p> <!-- dentro de la etiqueta de listas solo se pueden usar etiquetas <li>, podés ubicarlo entre <nav> y <ul> y usar un <h3> en lugar de <p> -->
-                    <li>sobre mi</li> <!-- si querés armár un menú de navegación podrías usar enlaces, por ejemplo: <li><a href="#">Sobre mí</a></li> -->
-                    <li>estudios</li>
-                    <li>mi portfolio</li>
+                    <li>Nivel universitario</li>
+                    <li>Nivel Secundario</li>
                 </ul>
-            </nav>
-        </header>
-        <main>
-            <section> <!-- te recomiendo organizar todos los elementos de este <section> y agruparlos en varios <article>, por ejemplo: sobre mi, estudios y mi portfolio -->
-                <img src="img/cv1.jpg" width="200" height="200" alt="foto de fernando barrera"/>
-                <h2>sobre mí</h2>
-                <p>Soy estudiante de la carrerra de diseño y comunicación visual de la universidad nacional de lanús, actualmente me encuentro en cuarto año de la carrera y soy parte del equipo docente de algunas materias como ayudante alumno. </p>
-                <h2>estudios</h2>
-                    <ul>
-                    <p>mis estudios...</p> <!-- dentro de la etiqueta <ul> solo se pueden usar etiquetas <li> -->
-                    <li>universitario</li>
-                    <li>secundario</li>
-                     </ul>
+            </article>
+            <article>
                 <h2>Mi portfolio</h2>
-            </section>
-        </main>
-        <footer>
-            <p>Fernando Barrera - Diseñador y comunicador visual - 2025 - compu III</p>
-            <img> <!-- eliminar o agregar los atributos todos los atributos (src, alt, width...), vas muy bien :D -->
-        </footer>
-    </body>
+                <h1>¡¡EN CONSTRUCCIÓN!!</h1>
+                <p>Próximamente voy a subir todos mis trabajos destacados</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Fernando Barrera - Diseñador y Comunicador visual - 2025 - Compu III</p>
+    </footer>
+</body>
+
 </html>
