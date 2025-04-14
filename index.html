@@ -5,39 +5,50 @@
     <meta charset="utf-8" />
     <title>BARRERA, Fernando / CV</title>
     <link href="estilos.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header id="cabecera">
-        <h2>Curriculum vitae</h2>
-        <h1>Barrera, Fernando Ezequiel</h1>
-        <p>Soy estudiante avanzado de la carrera de diseño y comunicación visual de la universidad nacional de lanús.
-        </p>
-        <nav class="botonera">
-            <h3>Contenido</h3>
+        <div class="inicio">
+            <div class="textos-cabecera-inicio">
+                <h1>Barrera, Fernando Ezequiel</h1>
+                <p>Diseñador y Comunicador visual</p>
+            </div>
+        </div>
+        <div class="botonera">
             <ul>
                 <li><a href="#">Sobre mí</a></li>
                 <li><a href="#">Estudios</a></li>
                 <li><a href="#">Mi Portfolio</a></li>
+                <li><a href="#">Contacto</a></li>
             </ul>
-        </nav>
+        </div>
     </header>
     <main>
         <section>
-            <article>
-                <img src="img/cv1.jpg" width="200" height="200" alt="foto de fernando barrera" />
-                <h2>Sobre mí</h2>
-                <p>Soy estudiante de la carrerra de diseño y comunicación visual de la universidad nacional de lanús,
-                    actualmente me encuentro en cuarto año de la carrera y soy parte del equipo docente de algunas
-                    materias como ayudante alumno. </p>
+            <article class="sobremi">
+                <div class="imagen-sobremi">
+                    <img src="img/cv1.jpg" width="200" height="200" alt="foto de fernando barrera" />
+                </div>
+                <div class="textos-sobremi">
+                    <h2>Sobre mí</h2>
+                    <p>Soy estudiante de la carrerra de diseño y comunicación visual de la universidad nacional de
+                        lanús,
+                        actualmente me encuentro en cuarto año de la carrera y soy parte del equipo docente de algunas
+                        materias como ayudante alumno. </p>
+                </div>
             </article>
-            <article>
+            <article class="estudios">
+                <div class="textos-estudios">
                 <h2>Estudios</h2>
                 <p>Mis estudios...</p>
-                <ul>
-                    <li>Nivel universitario</li>
+                <dl>
+                    <dt>Nivel universitario</dt>
+                    <dd>actualmente cursando cuarto año en la carrera de diseño y comunicación visual en UNLa.</dd>
                     <li>Nivel Secundario</li>
-                </ul>
+                </dl>
+                </div>
             </article>
             <article>
                 <h2>Mi portfolio</h2>
@@ -47,7 +58,7 @@
         </section>
     </main>
     <footer>
-        <p>Fernando Barrera - Diseñador y Comunicador visual - 2025 - Compu III</p>
+        <p>Fernando Barrera / Diseñador y Comunicador visual / 2025 / Compu III</p>
     </footer>
 </body>
 

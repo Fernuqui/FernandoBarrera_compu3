@@ -1,14 +1,154 @@
-#cabecera {
-    width: 1200px;
-    height: 90px;
-    background-color: cornflowerblue;
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: beige;
 }
 
-header h2 {
-    color:beige;
-    font-size: 20px;
-    }
+#cabecera {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url(img/patter_inicio.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-blend-mode: multiply;
+    background-color: #518773;
+    background-position-y: 260px;
+    padding: 20px;
+    flex-direction: column;
+    gap: 0px;
+}
 
-header h1 {
-    color:beige;
+.botonera {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.botonera ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 85px;
+    justify-content: center;
+}
+
+.botonera ul li {
+    display: flex;
+    font-family: "Zain", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.botonera a {
+    text-decoration: none;
+    color: beige;
+    padding: 15px 30px;
+    font-size: 15px;
+    background-color: #198460;
+    border: 1px solid #198460;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+.botonera a:hover {
+    color: #198460;
+    background-color: beige;
+}
+
+.inicio {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 100%;
+}
+
+.textos-cabecera-inicio {
+    display: flex;
+    flex-direction: column;
+    color: beige
+}
+
+.textos-cabecera-inicio h1 {
+    font-family: "Zain", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 90px;
+    margin: auto;
+}
+
+.textos-cabecera-inicio p {
+        display: flex;
+        justify-content: center;
+        font-family: "Zain", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 35px;
+        margin-top: 0px;
+        line-height: 0.1;
+}
+
+.imagen-sobremi {
+        display: flex;
+        width: 75%;
+        justify-content: space-around;
+}
+
+.textos-sobremi {
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: column;
+    line-height: 21px;
+}
+
+footer {
+    background-color: #198460;
+    color: beige;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.sobremi {
+    display: flex;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #198460;
+    border: 1px solid #198460;
+    margin: 0px;
+    border-radius: 20px;
+    width: 45%;
+    gap: 2px;
+    margin-top: 30px;
+}
+
+.estudios {
+    display: flex;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #198460;
+    border: 1px solid #198460;
+    margin: 0px;
+    border-radius: 20px;
+    width: 45%;
+    gap: 2px;
+    margin-top: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
