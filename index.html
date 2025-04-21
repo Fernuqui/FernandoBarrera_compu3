@@ -4,61 +4,130 @@
 <head>
     <meta charset="utf-8" />
     <title>BARRERA, Fernando / CV</title>
+    <link rel="icon" type="image/png" href="img/favicon.ico">
     <link href="estilos.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header id="cabecera">
-        <div class="inicio">
-            <div class="textos-cabecera-inicio">
-                <h1>Barrera, Fernando Ezequiel</h1>
-                <p>Diseñador y Comunicador visual</p>
-            </div>
-        </div>
-        <div class="botonera">
+        <section class="inicio">
+            <h1>Barrera, Fernando Ezequiel</h1>
+            <p>Diseñador y Comunicador visual</p>
+        </section>
+        <nav class="botonera">
             <ul>
-                <li><a href="#">Sobre mí</a></li>
-                <li><a href="#">Estudios</a></li>
-                <li><a href="#">Mi Portfolio</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#sobremi">Sobre mí</a></li>
+                <li><a href="#estudios">Estudios</a></li>
+                <li><a href="#portfolio">Mi Portfolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
-        </div>
+        </nav>
     </header>
+
     <main>
-        <section>
-            <article class="sobremi">
-                <div class="imagen-sobremi">
-                    <img src="img/cv1.jpg" width="200" height="200" alt="foto de fernando barrera" />
-                </div>
-                <div class="textos-sobremi">
-                    <h2>Sobre mí</h2>
-                    <p>Soy estudiante de la carrerra de diseño y comunicación visual de la universidad nacional de
-                        lanús,
-                        actualmente me encuentro en cuarto año de la carrera y soy parte del equipo docente de algunas
-                        materias como ayudante alumno. </p>
-                </div>
-            </article>
-            <article class="estudios">
-                <div class="textos-estudios">
-                <h2>Estudios</h2>
-                <p>Mis estudios...</p>
-                <dl>
-                    <dt>Nivel universitario</dt>
-                    <dd>actualmente cursando cuarto año en la carrera de diseño y comunicación visual en UNLa.</dd>
-                    <li>Nivel Secundario</li>
-                </dl>
-                </div>
+        <section id="sobremi">
+            <h2>Sobre mí</h2>
+            <img src="img/cv1.jpg" width="200" height="200" alt="Foto de Fernando Barrera" class="imagen-sobremi" />
+            <p>Soy estudiante de la carrera de Diseño y Comunicación Visual en la Universidad Nacional de Lanús.
+                Actualmente estoy en cuarto año y soy parte del equipo docente como ayudante alumno.</p>
+            <p>Actualmente me encuentro ayudando en Tecnología Gráfica I y II, Espacio Tipográfico II y Taller de Diseño
+                I</p>
+            <p>Me interesa el diseño como herramienta para comunicar con claridad. Busco siempre que cada proyecto tenga
+                sentido, coherencia y esencia propia.</p>
+        </section>
+
+        <section id="estudios">
+            <h2>Estudios</h2>
+            <article>
+                <h3>Universidad Nacional de Lanús</h3>
+                <h4>Lanús, Buenos Aires</h4>
+                <p>Licenciatura en Diseño y Comunicación Visual</p>
+                <p>En curso / Inicio: Marzo 2020</p>
             </article>
             <article>
-                <h2>Mi portfolio</h2>
-                <h1>¡¡EN CONSTRUCCIÓN!!</h1>
-                <p>Próximamente voy a subir todos mis trabajos destacados</p>
+                <h3>Domestika</h3>
+                <h4>En línea</h4>
+                <p>Introducción a Adobe Illustrator</p>
+                <p>Curso - graduado / 2021</p>
+            </article>
+            <article>
+                <h3>Domestika</h3>
+                <h4>En línea</h4>
+                <p>Introducción a Adobe Photoshop</p>
+                <p>Curso - graduado / 2021</p>
+            </article>
+            <article>
+                <h3>Instituto José Manuel Estrada</h3>
+                <h4>Rafael Calzada, Buenos Aires</h4>
+                <p>Bachiller en Economía y Administración</p>
+                <p>Secundaria - graduado / 2007-2014</p>
+            </article>
+        </section>
+
+        <section id="portfolio">
+            <h2>Mi portfolio / @fernec.dg</h2>
+            <div class="orden-portfolio">
+                <article class="proyecto">
+                    <img src="img/fuego.jpg" alt="Afiche de evento fuego">
+                    <h3><a href="https://www.instagram.com/fernec.dg/p/C8uyKX-OdM-/?img_index=1"> Fuego / Festival de
+                            cine</a></h3>
+                    <h4>2024</h4>
+                    <p>Fuego es un festival de cine, diseñado junto a Daiana Ortiz. Es un sistema gráfico de varias
+                        piezas.</p>
+                </article>
+                <article class="proyecto">
+                    <img src="img/afiche2.jpg" alt="Afiche de evento susto">
+                    <h3><a href="https://www.instagram.com/fernec.dg/p/DHrOhtkRBR1/?img_index=1">Susto / Festival
+                            Literario</a></h3>
+                    <h4>2024</h4>
+                    <p>Susto es un festival literario de terror, diseñado junto a Noelia Salinas. Es un sistema gráfico
+                        que incluye varias piezas.</p>
+                </article>
+                <article class="proyecto">
+                    <img src="img/recetario.jpg" alt="Imagen del libro recetario">
+                    <h3><a href="https://www.instagram.com/fernec.dg/p/DHrOhtkRBR1/?img_index=1">Sabores del apocalipsis
+                            / Recetario</a></h3>
+                    <h4>2024</h4>
+                    <p>Libro recetario de concepto post-apocaliptico.</p>
+                </article>
+                <article class="proyecto">
+                    <img src="img/saoko.jpg" alt="imagen de vinilo saoko">
+                    <h3><a href="https://www.instagram.com/fernec.dg/p/C7cjOHMOOtS/?img_index=1">Saoko / Vinilo</a></h3>
+                    <h4>2024</h4>
+                    <p>Tapa y contratapa de vinilo para el single Saoko de Rosalia</p>
+                </article>
+                <article class="proyecto">
+                    <img src="img/harakiri.jpg" alt="Foto de frame de harakiri">
+                    <h3><a href="https://www.instagram.com/fernec.dg/p/C7fixzTuGET/?img_index=1">Harakiri /
+                            Fotografía</a></h3>
+                    <h4>2024</h4>
+                    <p>Frames fotográficos de la pelicula Harakiri. También diseño de poster.</p>
+                </article>
+                <article class="proyecto">
+                    <img src="img/afiche.jpg" alt="Afiche de la pelicula al centro de la tierra">
+                    <h3><a href="https://www.instagram.com/p/C8Hx7fSOxUF/">Afiche de película</a></h3>
+                    <h4>2024</h4>
+                    <p>Diseño de afiche para "Al centro de la tierra", pelicula Argentina.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <article>
+                <h3>Trabajemos juntos</h3>
+                <p>Enviame un mail: <a href="mailto:fernandobarrea.dycv@gmail.com">fernandobarrera.dycv@gmail.com</a>
+                </p>
+                <p>Llamame: +54 9 11 6974-1477</p>
             </article>
         </section>
     </main>
+
     <footer>
-        <p>Fernando Barrera / Diseñador y Comunicador visual / 2025 / Compu III</p>
+        <p>Fernando Barrera / Diseñador y Comunicador Visual / 2025 / Compu III</p>
     </footer>
 </body>
 
