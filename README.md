@@ -17,6 +17,10 @@ Este es mi primer sitio y curriculum y portfolio como Diseñador y Comunicador V
 
 - El tamaño de pantalla en la que trabajé es 1920x1080
 
+  ## Conclusiones
+
+- Si bien fue dificíl entender algunas cosas, por que es la primera vez que realizo algo así, siento que estoy contento con el resultado y al mismo tiempo me dan ganas de seguir trabajandolo, quizás de manera diferente, pero ya con una visión de todos los conceptos aprendidos. Sin dudas, este primer sitio, fue un acercamiento a todo, basandome en pruebas y error y pensando mucho que etiquetas usar, sobre todo eso. Claramente voy a seguir trabajando con este código, o quizás con un nuevo, por que también me sirve para presentar mis trabajos de diseño que realicé para la carrera.
+
 **Fernando Barrera**  
 Estudiante de Diseño y Comunicación Visual  
 Universidad Nacional de Lanús
